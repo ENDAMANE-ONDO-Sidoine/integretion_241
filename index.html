@@ -27,7 +27,7 @@
 			<img src="twitter.png" width="30px" class="mr-4 hover:bg-blue-500 rounded-full">
 			<img src="LinkedIn.png"  width="30px" class="mr-4 hover:bg-blue-500 rounded-full">
 			<img src="translate.png"  width="25px" class="ml-6 hover:bg-blue-100">
-			<select class=" h-[10px] ml-0 text-xs mr-10  border-slate-100"> 
+			<select class=" ml-0 text-xs mr-10  border-slate-100"> 
 				<option value="FR" >FR </option> 
 				<option value="EN" >EN </option> 
 				<option value="ES" >EN</option> 
@@ -51,7 +51,7 @@
 				<li ><a href="#" class=" text-white hover:text-red-500 font-normal">Contact</a></li>
 			</ul>
 			<!----------------------------------------liste déroulante-------------------------------------------------------------->
-			<select class="md:hidden bg-gray-200 text-xs text-red-800 border border-current h-[50%] p-2 ml-6 rounded border-current">
+			<select class="md:hidden bg-gray-200 text-xs text-red-600 h-[50%] p-2 ml-6 rounded border-current">
     				<option value="Menu">Menu</option>
 				<option value="Accueil">Accueil</option>
     				<option value="Nos Formations">Nos Formations</option>
@@ -318,11 +318,15 @@
 
 	<!----------------------------bloque n°7------------------------------>
 	<div class="flex  flex-col h-full w-full justify-between items-center p-10">
-		<div class="flex h-full w-full justify-between items-center Témoignage des alumnis"> 
+		<div class="flex h-full w-full justify-between items-center text-5xl mb-4"> 
 			<h2 class=""><b>Nous sommes à</b></h2>
 		</div>
-		<div class=" h-full w-full justify-start items-start text-justify wrap mb-10"> 
-			<p>École 241 possède à nos deux campus notamment sur les villes de Libreville et Port Gentil,<br> cette année nous nous déployons du côté de la ville de Moanda.</p>
+		<div class=" flex hidden md:flex h-full w-1/4 w-full justify-between items-center  text-justify mb-10"> 
+			<p>École 241 possède à nos deux campus notamment sur les villes de Libreville et Port Gentil, <br> cette année nous nous déployons du côté de la ville de Moanda.</p>
+		</div>
+		<!-------------------------Affichage sur mobile------------------------------------------------->
+		<div class="flex md:hidden h-full w-1/4 w-full justify-between items-center  text-justify mb-10"> 
+			<p>École 241 possède à nos deux campus notamment sur les villes de Libreville et Port Gentil, cette année nous nous déployons du côté de la ville de Moanda.</p>
 		</div>
 		<div class="flex h-3/4 w-full">
   				<div class=" h-72 w-1/2 p-4 mx-4 mt-4 bg-cover bg-center rounded" style="background-image: url('lbv.png')">
@@ -363,7 +367,7 @@
 		</div>
 	</div>
 		
-	<!----------------------------bloque n°7------------------------------>
+	<!----------------------------bloque n°8------------------------------>
 
 	<div class="flex  h-full w-full justify-between items-center bg-gray-100 px-20 py-10">
 	 	<div class="flex  h-full w-full justify-between items-center text-5xl bold mb-5">
